@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://edshare.com/id/epm/simple_pubs'>
+  <epmid>simple_pubs</epmid>
+  <uri>http://edshare.com/id/epm/simple_pubs</uri>
+  <documents>
+    <document>
+      <files>
+        <file>
+          <filename>epm/simple_pubs/cfg/cfg.d/x_simple_pubs.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>63de5d6870f5a0c44eb229e1b7cbd6b8</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>805</filesize>
+        </file>
+        <file>
+          <filename>epm/simple_pubs/cfg/workflows/eprint/simple_pubs.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>4276180fbb6608a6abca9e56219da945</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1431</filesize>
+        </file>
+        <file>
+          <filename>plugins/EPrints/Plugin/Screen/EPrint/SimplePubsEdit.pm</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>9c026e2fa92bc766c4d4712b245f7dce</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>364</filesize>
+        </file>
+      </files>
+      <mime_type>inode/symlink</mime_type>
+      <format>other</format>
+      <main>plugins/EPrints/Plugin/Screen/EPrint/SimplePubsEdit.pm</main>
+      <content>install</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <creators>
+    <item>
+      <name>
+        <family>McSweeney</family>
+        <given>Patrick</given>
+      </name>
+      <id>pm5@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <title>Simple Publications</title>
+  <description>A simple workflow for a repository which only deals with publications. Only the bare minimum of useful data is collected making it much easier for depositors to get material into the repository.</description>
+</epm>
