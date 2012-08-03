@@ -26,11 +26,32 @@
           <hash_type>MD5</hash_type>
           <filesize>364</filesize>
         </file>
+        <file>
+          <filename>static/images/epm/simple_pubs.png</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>6b0a0964f0a40cb4c5c89559ff97dcca</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>127118</filesize>
+        </file>
       </files>
       <mime_type>inode/symlink</mime_type>
       <format>other</format>
-      <main>plugins/EPrints/Plugin/Screen/EPrint/SimplePubsEdit.pm</main>
+      <main>static/images/epm/simple_pubs.png</main>
       <content>install</content>
+    </document>
+    <document>
+      <files>
+        <file>
+          <filename>static/images/epm/simple_pubs.png</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>6b0a0964f0a40cb4c5c89559ff97dcca</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>127118</filesize>
+        </file>
+      </files>
+      <format>image</format>
+      <main>static/images/epm/simple_pubs.png</main>
+      <content>coverimage</content>
     </document>
   </documents>
   <version>1.0.0</version>
@@ -45,4 +66,5 @@
   </creators>
   <title>Simple Publications</title>
   <description>A simple workflow for a repository which only deals with publications. Only the bare minimum of useful data is collected making it much easier for depositors to get material into the repository.</description>
+  <icon>images/epm/simple_pubs.png</icon>
 </epm>
